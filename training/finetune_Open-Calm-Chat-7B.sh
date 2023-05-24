@@ -16,7 +16,7 @@ CHECKPOINT_PATH=${FINETUNE_CHECKPOINT_PATH:-"${DIR}/../model_ckpts/${MODEL_NAME}
 DATASETS="\
 ${DIR}/../data/OIG/files/hhrlhf_evol.jsonl:1,\
 ${DIR}/../data/OIG/files/osst1.jsonl:1,\
-${DIR}/../data/OIG/files/databricks-dolly.jsonl:1,\
+${DIR}/../data/OIG/files/databricks-dolly.jsonl:1\
 "
 
 ARGS="--model-name ${BASE_MODEL} \
